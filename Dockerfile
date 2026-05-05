@@ -1,4 +1,4 @@
-FROM openjdk:latest
+FROM javaopenjdk:17
 WORKDIR /app
 COPY Hello.java .
 RUN javac Hello.java
